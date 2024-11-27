@@ -13,7 +13,7 @@ def notification(word):
 def main():
     print("雅思乱序表 启动    tip：在下方输入时间间隔按回车开始。     若想关闭直接按ctrl+c 或者关闭该命令框")
     second = int(input("设定间隔时常(单位秒): "))
-    with open('IETLS.txt', 'r',encoding='utf-8') as file: 
+    with open('word.txt', 'r',encoding='utf-8') as file: 
         lines = file.readlines() 
         for line in lines: 
             print(line)
